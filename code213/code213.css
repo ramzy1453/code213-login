@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.one {
+  padding: 10px;
+  background-color: rgb(237, 237, 248);
+  border-radius: 8px;
+  border: 1px solid rgb(212, 206, 206);
+  outline: none;
+
+  transition: 0.5s ease all;
+}
+.one:hover {
+  border-color: rgb(0, 89, 255);
+}
+.three {
+  padding: 10px;
+  background-color: blue;
+  margin: 25px 0;
+  color: aliceblue;
+  border-radius: 10px;
+  border: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 40px;
+}
+.all {
+  display: flex;
+  height: 100vh;
+}
+.form {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(184, 199, 197, 1) 0%,
+    rgb(81, 103, 107) 100%
+  );
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+.rihab {
+  text-align: center;
+  text-decoration: none;
+}
+.three:hover {
+  background-color: cadetblue;
+}
